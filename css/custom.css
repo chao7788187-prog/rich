@@ -1,0 +1,53 @@
+/* p{color: #ea7637;} */
+
+/* .textFormat {font-size: 32px;color: #f00;} */
+
+/* google format  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+:root,
+[data-bs-theme=light] {
+--bs-dark-rgb:247,170,5
+}
+
+/* 變更根元素大小 */
+html {font-size: 20px;}
+
+body{font-family: "微軟正黑體","Noto Sans TC", sans-serif;;}
+
+/* 標題一級的文字大小 */
+h1 {font-size: 2rem;}
+
+/* 標題二級的文字設定,選取器識標籤,影響整體, */
+h2 {font-size: 1.8rem;font-weight: 800;color: rgb(39, 102, 229);}
+
+/* 選取器是類別,影響個別,需要手動套用 */
+.h2-custom-pink {font-size: 3rem;font-weight: 800;color: rgb(255, 0, 195);}
+
+/* 段落間距 */
+p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+/* card樣式 */
+.card {
+--bs-card-title-color:rgb(111, 36, 6);
+--bs-card-border-width:2px;
+--bs-card-border-color:rgb(209, 83, 29);
+}
+
+/* 局部文字色彩 */
+.text-orange {color: #dd5500;}
+
+
+
+/* 自訂項目清單的符號 */
+.listCircle {list-style-type: circle;}
+
+
+/* 自訂編號清單的編號 */
+.listRoman {list-style-type: upper-roman;}
+
+
+/* 商品資訊bazaar.html,取消邊框,以類別作為選取氣 */
+.card-no-border{ border: none;}
